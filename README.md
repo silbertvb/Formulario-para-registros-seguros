@@ -1,3 +1,4 @@
+
 # Formulario de Registro Interactivo y Seguro – ConnectHub
 
 ## Descripción del proyecto
@@ -151,3 +152,4 @@ El proyecto cumple correctamente todos los requisitos planteados:
 - ✔️ Feedback visual inmediato  
 - ✔️ Uso correcto de cookies  
 - ✔️ Diseño responsive y usable  
+
