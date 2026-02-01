@@ -7,6 +7,8 @@ Este proyecto consiste en el desarrollo de un **formulario de registro interacti
 
 El formulario ofrece **validación en tiempo real**, **feedback visual inmediato**, uso de **expresiones regulares (Regex)** y **gestión de cookies** para mejorar la experiencia de usuario y la calidad de los datos introducidos.
 
+[Ver formulario en funcionamiento](https://github.com/silbertvb/Formulario-para-registros-seguros/)
+
 ---
 
 ## Objetivos
