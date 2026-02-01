@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;             /* incluye padding y border en el tamaño total */
+    font-family: Arial, sans-serif;     /* fuente legible y común */
+}
+
+body {
+    background: #f4f6f8;
+    margin: 0;                          /* elimina margen por defecto */    
+    padding: 20px;                      /* espacio alrededor del contenido */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;                    /* ancho definido en el contenedor */
+    margin: auto;
+    background: #fff; 
+    padding: 25px;                       /* espacio interno */
+    border-radius: 8px;                  /* bordes redondeados */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;                 /* espacio debajo del título */
+}
+
+.field {
+    margin-bottom: 15px; 
+}
+
+label {
+    display: block;                     /* hace que el label ocupe toda la línea */
+    margin-bottom: 5px; 
+}
+
+input {
+    width: 100%;                        /* ocupa todo el ancho del contenedor */
+    padding: 8px;  
+    border: 1px solid #ccc;          /* borde gris claro */
+    border-radius: 4px; 
+}
+
+input.invalid {
+    border-color: red;               /* borde rojo para entradas inválidas */
+}
+
+input.valid {
+    border-color: green;             /* borde verde para entradas válidas */
+}
+
+.error {
+    color: red;                      /* texto de error en rojo */
+    font-size: 0.85em;                 /* tamaño de fuente más pequeño */
+}
+
+.info {
+    font-size: 0.85em;
+    color: #555;  
+}
+
+.checkbox {
+    margin: 15px 0;                     /* espacio arriba y abajo */
+}
+
+button {
+    width: 100%; 
+    padding: 10px;
+    background: #0077cc;
+    color: white;
+    border: none;                       /* sin borde */
+    border-radius: 4px;
+    cursor: pointer;                    /* cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background: #005fa3;              /* color más oscuro al pasar el ratón */
+}
+
+.cookie-msg {
+    margin-top: 10px;
+    font-size: 0.85em;
+    color: #333;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {             /* móviles */
+    .container {       
+        padding: 15px;  
+    }
+}
